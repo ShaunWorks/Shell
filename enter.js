@@ -6,7 +6,7 @@ $("#sign-in").on("click", function(event) {
     if(inputtedPass === pass) {
         $("#intro-card").addClass("fadeOut")
         setTimeout(function(){
-            window.location.href = "main-page.html";
+            window.location.href = "i_love_you.html";
         }, 1500)
     }
     $("#password").val("");
