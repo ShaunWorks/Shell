@@ -37,7 +37,7 @@ $(document).ready(function () {
     var desc = button.attr('desc');
     $(".modal-title").text(title);
     $("#modal-img").attr("src", img);
-    $("#modal-desc").text(desc);
+    $("#modal-desc").html(desc);
   })
 
   let audio = $(".audio-player");
